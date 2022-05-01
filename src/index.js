@@ -150,3 +150,40 @@
 // arr8[0] = 100;
 // console.log(arr8); // 100,20
 // console.log(arr4); // 100,20
+
+/**
+ * map やfliterを使った配列処理
+ */
+// const nameArr = ["田中", "山田", "本田"];
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(nameArr[index]);
+// }
+
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// });
+// console.log(nameArr2);
+
+// nameArr.map((name) => console.log(name));
+
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// });
+// console.log(newNumArr);
+
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(`${index + 1}番目は${nameArr[index]}です`);
+// }
+// 第二引数にインデックスが入る
+// nameArr.map((name, index) => console.log(`${index + 1}番目は${name}です`));
+
+// 本田　以外で語尾にさんつける
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "本田") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNameArr);
