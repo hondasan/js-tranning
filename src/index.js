@@ -204,3 +204,27 @@
 //   return num1 + num2 > 100 ? "100を超えています" : "許容範囲ないです";
 // };
 // console.log(checkSum(50, 50));
+
+/**
+ * 論理演算子の本当の意味
+ */
+// const flag1 = true;
+// const flag2 = false;
+
+// if (flag1 || flag2) {
+//   console.log("1か2はtrue");
+// }
+
+// if (flag1 && flag2) {
+//   console.log("1も2はtrue");
+// }
+
+// || は左側がfalse なら右側を返す
+// const num = num;
+// const fee = num || "金額は未設定です";
+// console.log(fee);
+
+// && 左側がtrueなら右側を返す
+// const num2 = 100;
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2);
